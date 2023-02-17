@@ -1,0 +1,15 @@
+import java.util.Scanner;
+public class JavaTestClass {
+
+    public static void main(String[] args) {
+        int count;
+        System.out.println.("Enter numbers to count : ");
+        Scanner sc = new Scanner(System.in);
+        count sc.nextInt();
+        int num, sum = 0;
+        for(int i=0;i<count;i++) {
+            num = sc.nextInt();
+            sum = sum + num;
+
+        }
+        System.out.println("Sum of numbers : " + sum);
